@@ -1,0 +1,33 @@
+body{background-image: url(1.png);
+	background-repeat: y-repeat;
+	background-size: 100%;
+	color: #FFFFFF;}
+
+p {border-color: lightblue;}
+ {link="red" vlink="#cecece" alink="#ff0000"}
+
+.btn-group button {
+	size: 188 188 188;
+    background-color: #4CAF50; /* Green background */
+    border: 2px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+.btn-group button:not(:last-child)
+ {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
